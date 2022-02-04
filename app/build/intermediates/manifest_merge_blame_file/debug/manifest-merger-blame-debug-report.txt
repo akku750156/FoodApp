@@ -1,0 +1,238 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.foodorderapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+14-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+15
+16    <application
+16-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:9:5-43:19
+17        android:allowBackup="true"
+17-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/084370e4dc811c297bbccc857049f78c/core-1.3.1/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:11:9-43
+22        android:label="@string/app_name"
+22-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:12:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:13:9-54
+24        android:supportsRtl="true"
+24-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:14:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.FoodOrderApp" >
+26-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:15:9-50
+27        <activity
+27-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:16:9-18:40
+28            android:name="com.android.foodorderapp.Login"
+28-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:17:13-34
+29            android:exported="false" />
+29-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:18:13-37
+30        <activity
+30-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:19:9-27:20
+31            android:name="com.android.foodorderapp.Register"
+31-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:20:13-37
+32            android:exported="true" >
+32-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:21:13-36
+33            <intent-filter>
+33-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:22:13-26:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:23:17-69
+34-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:23:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:25:17-77
+36-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:25:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.android.foodorderapp.OrderSucceessActivity" />
+39-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:28:9-59
+39-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:28:19-56
+40        <activity android:name="com.android.foodorderapp.PlaceYourOrderActivity" />
+40-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:29:9-60
+40-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:29:19-57
+41        <activity android:name="com.android.foodorderapp.RestaurantMenuActivity" />
+41-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:30:9-60
+41-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:30:19-57
+42        <activity android:name="com.android.foodorderapp.SplashActivity" >
+42-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:31:9-37:20
+42-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:31:19-49
+43            <intent-filter>
+43-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:22:13-26:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:23:17-69
+44-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:23:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:25:17-77
+46-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:25:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.android.foodorderapp.MainActivity" />
+49-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:38:9-50
+49-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:38:19-47
+50
+51        <meta-data
+51-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:40:9-42:57
+52            android:name="preloaded_fonts"
+52-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:41:13-43
+53            android:resource="@array/preloaded_fonts" />
+53-->/Users/akku/Downloads/FoodApp-main/FoodOrderApp/app/src/main/AndroidManifest.xml:42:13-54
+54
+55        <activity
+55-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+56            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+56-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+57            android:excludeFromRecents="true"
+57-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+58            android:exported="true"
+58-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+59            android:launchMode="singleTask"
+59-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+60-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+61            <intent-filter>
+61-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+62-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+64-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+65-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+66
+67                <data
+67-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+68                    android:host="firebase.auth"
+68-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+69                    android:path="/"
+69-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+70                    android:scheme="genericidp" />
+70-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+74            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+74-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+75            android:excludeFromRecents="true"
+75-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+76            android:exported="true"
+76-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+77            android:launchMode="singleTask"
+77-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+78-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+79            <intent-filter>
+79-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+80                <action android:name="android.intent.action.VIEW" />
+80-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+80-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+82-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+83                <category android:name="android.intent.category.BROWSABLE" />
+83-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+83-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+84
+85                <data
+85-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+86                    android:host="firebase.auth"
+86-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+87                    android:path="/"
+87-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+88                    android:scheme="recaptcha" />
+88-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+89            </intent-filter>
+90        </activity>
+91
+92        <service
+92-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+93            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+93-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+94            android:enabled="true"
+94-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+95            android:exported="false" >
+95-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+96            <intent-filter>
+96-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+97                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+97-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+97-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+99-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+100            </intent-filter>
+101        </service>
+102        <service
+102-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+103            android:name="com.google.firebase.components.ComponentDiscoveryService"
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+104            android:directBootAware="true"
+104-->[com.google.firebase:firebase-common:20.0.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/ae2528762b2de133781bc8d4c04da789/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+105            android:exported="false" >
+105-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+106            <meta-data
+106-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+107                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+107-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-auth:21.0.1] /Users/akku/.gradle/caches/transforms-2/files-2.1/dd2b2dbe9db9043a12c310d1195f5a5f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+109        </service>
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:17.1.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/9b8abfba9518d34902195e669e56f58f/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:17.1.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/9b8abfba9518d34902195e669e56f58f/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:17.1.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/9b8abfba9518d34902195e669e56f58f/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:17.1.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/9b8abfba9518d34902195e669e56f58f/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:20.0.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/ae2528762b2de133781bc8d4c04da789/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:20.0.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/ae2528762b2de133781bc8d4c04da789/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+118            android:authorities="com.android.foodorderapp.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:20.0.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/ae2528762b2de133781bc8d4c04da789/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:20.0.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/ae2528762b2de133781bc8d4c04da789/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:20.0.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/ae2528762b2de133781bc8d4c04da789/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:20.0.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/ae2528762b2de133781bc8d4c04da789/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:17.1.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/8f6fa06dd6308fdfb1ca2a7e0d2a8563/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:17.1.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/8f6fa06dd6308fdfb1ca2a7e0d2a8563/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:17.1.0] /Users/akku/.gradle/caches/transforms-2/files-2.1/8f6fa06dd6308fdfb1ca2a7e0d2a8563/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+126    </application>
+127
+128</manifest>
